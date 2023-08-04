@@ -77,13 +77,14 @@ body {
   width: 100%;
   gap: 100px;
   padding: 40px;
-  margin-left: 50px;
 }
 
 .sub-menu {
   border-left: 1px solid black;
-  margin-left: 75px;
-  height: 980px;
+  border-right: 1px solid black;
+  margin-left: 50px;
+  width: 55%;
+  height: 800px;
 }
 .submenu-list {
   margin-top: 20px;
@@ -108,21 +109,9 @@ a {
   text-decoration: none;
   color: black;
 }
-.japonais,
-.scotch,
-.monde,
-.rhum,
-.gin,
-.vodka,
-.cognac,
-.armagnac,
-.spiritueux,
-.champagne,
-.vin {
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+.sidebar {
+  margin-top: 20px;
 }
-
 /*-------MOBILE------*/
 .btn-mobile {
   display: none;
@@ -151,7 +140,7 @@ a {
   display: none;
   width: 100%;
   position: absolute;
-  top: 50px;
+  top: 10px;
 }
 
 .nav-item {
@@ -211,4 +200,18 @@ a {
     width: 45px;
     height: 45px;
   }
+}
+.container-pub {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.card {
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.container-pub-mobile {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }

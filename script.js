@@ -5,6 +5,7 @@ $(".btn-nav").on("click", function () {
 
   $(".menu").toggleClass("active");
   $(".sous-menu").hide();
+  $(".menu-scotch").show().css("display", "flex");
 });
 // Gérer le clic sur le bouton pour afficher/masquer
 $(".japonais").on("click", function () {

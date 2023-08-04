@@ -1,0 +1,181 @@
+[
+  {
+    "nom": "Scotch Whisky",
+    "selection": ["Blends", "Single Malt", "Tourbé", " Single Grain"],
+    "region": [
+      "Islay",
+      "Speyside",
+      "Campbeltown",
+      "Highlands",
+      "Islands",
+      "Lowlands"
+    ],
+    "marques": ["Aberlour", "Macallan", "Cardhu", "Glenfiddich"]
+  },
+  {
+    "nom": "Whisky Japonais",
+    "selection": [
+      "Blends",
+      "Single Malt",
+      "Pure Malt",
+      "Single Grain",
+      "Coffey Grain"
+    ],
+    "marques": ["Akashi", "Hatozaki", "Nikka"]
+  },
+  {
+    "nom": "Whisky du Monde",
+    "selection": [
+      "Bourbon",
+      "Single Malt",
+      "Tourbé",
+      "Single Grain",
+      "Pure Malt",
+      "Rye Whisky",
+      "Whisky Américain",
+      "Crème de Whisky",
+      "French Malt",
+      "Single Pot Still",
+      "Triple Malt",
+      "Corn Whisky"
+    ],
+    "pays": [
+      "Etats-Unis",
+      "Royaume-Uni",
+      "Autriche",
+      "Allemagne",
+      "Suède",
+      "France",
+      "Canada",
+      "Australie",
+      "Italie",
+      "Taiwan",
+      "Irlande",
+      "Inde",
+      "Belgique",
+      "Corée du Sud"
+    ],
+    "marques": [
+      "Américan Eagle",
+      "Domaine des Hautes Glaces",
+      "Kavalan",
+      "Marker's Mark",
+      "Jim Beam"
+    ]
+  },
+  {
+    "nom": "Rhum",
+    "selection": [
+      "Rhum Agricole",
+      "Rhum Blanc",
+      "Rhum Ambré",
+      "Rhum de Mélasse",
+      "Rhum Arrangé",
+      "Rhum Vieux"
+    ],
+    "pays": [
+      "Guatemala",
+      "Réunion",
+      "Cuba",
+      "Guadeloupe",
+      "Espagne",
+      "Martinique",
+      "Vénézuela"
+    ],
+    "marques": [
+      "Zacapa",
+      "Bielle",
+      "Don Papa",
+      "Damoiseau",
+      "Clément",
+      "Diplomatico"
+    ]
+  },
+  {
+    "nom": "Vodka",
+
+    "marques": ["Beluga", "Mamont", "Belvedere", "Haku", "Nikka"]
+  },
+  {
+    "nom": "Gin",
+    "selection": ["Gin", "Soda", "Accessoires"],
+    "Pays": ["France", "Autriche"],
+    "marques": ["Citadelle", "Gin Mare", "Bulldog", "Generous", "Engine"]
+  },
+  {
+    "nom": "Cognac",
+
+    "marques": [
+      "A.E Dor",
+      "Hennessy",
+      "Rémy Martin",
+      "Courvoisier",
+      "Lheraud",
+      "Frapin",
+      "Maison Gautier"
+    ]
+  },
+  {
+    "nom": "Armagnac",
+    "selection": ["Armagnac de Ténarèze", "Bas-Armagnac", "Vieil Armagnac"],
+
+    "marques": ["Baron Gaston Legrand"]
+  },
+  {
+    "nom": "Spiritueux",
+    "selection": [
+      "Cachaça",
+      "Porto & Madère",
+      "Anisés",
+      "Liqueur",
+      "Pisco",
+      "Saké",
+      "Apéritif & Amer",
+      "Fruits à la liqueur",
+      "Eau de vie",
+      "Tequila",
+      "Cocktail & Mixologie",
+      "Mezcal",
+      "Calvados"
+    ]
+  },
+  {
+    "nom": "Champagne",
+    "selection": [
+      "Blanc de Blancs",
+      "Brut Nature",
+      "Prosecco & Vin Pétillant",
+      "Blanc de Noirs",
+      "Extra Brut",
+      "Brut",
+      "Rosé"
+    ],
+
+    "marques": [
+      "Armand de Brignac",
+      "Deutz",
+      "Laurent Perrier",
+      "Billecart Salmon",
+      "Dom Pérignon",
+      "Ruinart",
+      "Bollinger",
+      "Lallier",
+      "Veuve Clicquot"
+    ]
+  },
+  {
+    "nom": "Vin",
+    "selection": ["Vin Blanc", "Vin Rosé", "Vin Rouge"],
+    "pays": ["Australie", "Espagne", "Autriche", "France", "Chili"],
+    "region": [
+      "Alsace",
+      "Jura",
+      "Bordeaux",
+      "Bourgogne",
+      "Provence",
+      "Languedoc-Roussillon",
+      "Vallée du Rhône",
+      "Vallée de la loire"
+    ]
+  }
+]
