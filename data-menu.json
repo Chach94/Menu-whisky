@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "nom": "Scotch Whisky",
     "selection": ["Blends", "Single Malt", "Tourbé", " Single Grain"],
     "region": [
@@ -13,6 +14,7 @@
     "marques": ["Aberlour", "Macallan", "Cardhu", "Glenfiddich"]
   },
   {
+    "id": 2,
     "nom": "Whisky Japonais",
     "selection": [
       "Blends",
@@ -24,6 +26,7 @@
     "marques": ["Akashi", "Hatozaki", "Nikka"]
   },
   {
+    "id": 3,
     "nom": "Whisky du Monde",
     "selection": [
       "Bourbon",
@@ -64,6 +67,7 @@
     ]
   },
   {
+    "id": 4,
     "nom": "Rhum",
     "selection": [
       "Rhum Agricole",
@@ -92,17 +96,20 @@
     ]
   },
   {
+    "id": 4,
     "nom": "Vodka",
 
     "marques": ["Beluga", "Mamont", "Belvedere", "Haku", "Nikka"]
   },
   {
+    "id": 5,
     "nom": "Gin",
     "selection": ["Gin", "Soda", "Accessoires"],
     "Pays": ["France", "Autriche"],
     "marques": ["Citadelle", "Gin Mare", "Bulldog", "Generous", "Engine"]
   },
   {
+    "id": 6,
     "nom": "Cognac",
 
     "marques": [
@@ -116,12 +123,14 @@
     ]
   },
   {
+    "id": 7,
     "nom": "Armagnac",
     "selection": ["Armagnac de Ténarèze", "Bas-Armagnac", "Vieil Armagnac"],
 
     "marques": ["Baron Gaston Legrand"]
   },
   {
+    "id": 8,
     "nom": "Spiritueux",
     "selection": [
       "Cachaça",
@@ -140,6 +149,7 @@
     ]
   },
   {
+    "id": 9,
     "nom": "Champagne",
     "selection": [
       "Blanc de Blancs",
@@ -164,6 +174,7 @@
     ]
   },
   {
+    "id": 10,
     "nom": "Vin",
     "selection": ["Vin Blanc", "Vin Rosé", "Vin Rouge"],
     "pays": ["Australie", "Espagne", "Autriche", "France", "Chili"],

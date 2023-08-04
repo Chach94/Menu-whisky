@@ -4,7 +4,7 @@ $(".btn-nav").on("click", function () {
   $(".l3").toggleClass("active");
 
   $(".menu").toggleClass("active");
-  $(".sous-menu").hide();
+  $(".sous-menu").show();
 });
 $(document).ready(function () {
   // appel de fichier JSON
@@ -24,23 +24,28 @@ $(document).ready(function () {
         );
         // création des divs pour submenu
         $(".sous-menu").append(
-          '<div class="nav-container"><h2>Sélection</h2> <ul class="submenu-list selection"> </ul></div>',
-          '<div class="nav-container"><h2>Marques</h2> <ul class="submenu-list marques"> </ul></div>',
-          '<div class="nav-container"><h2>Région</h2> <ul class="submenu-list region"> </ul></div>'
+          '<div class="sous-menu ' +
+            item.nom +
+            '"><div class="nav-container"><h2>Sélection</h2> <ul class="submenu-list selection"> </ul></div><div class="nav-container"><h2>Marques</h2> <ul class="submenu-list marques"> </ul></div><div class="nav-container"><h2>Région</h2> <ul class="submenu-list region"> </ul></div></div>'
         );
         // Boucles pour afficher un par un les éléments de selection
-        for (var i = 0; i < item.selection.length; i++) {
-          console.log(item.selection.length);
-          $(".selection").append("<li>" + item.selection[i] + "</li>");
+        if (item.selection) {
+          for (var i = 0; i < item.selection.length; i++) {
+            $(".selection").append("<li>" + item.selection[i] + "</li>");
+          }
         }
         // test pour afficher les marques du premier element JSON
-        $.each(data[0].marques, function (i, test) {
-          $(".marques").append("<li>" + test + "</li>");
-        });
+        if (item.marques) {
+          for (var i = 0; i < item.marques.length; i++) {
+            $(".marques").append("<li>" + item.marques[i] + "</li>");
+          }
+        }
         // test pour afficher les marques du premier element JSON
-        $.each(data[0].region, function (i, test) {
-          $(".region").append("<li>" + test + "</li>");
-        });
+        if (item.region) {
+          for (var i = 0; i < item.region.length; i++) {
+            $(".region").append("<li>" + item.region[i] + "</li>");
+          }
+        }
       }); // Vous pouvez faire des opérations sur les données ici.
     },
     error: function (error) {
