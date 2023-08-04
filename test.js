@@ -26,13 +26,14 @@ $(document).ready(function () {
         $(".sub-menu").append(
           '<div class="sous-menu ' +
             item.nom +
-            '"><div class="nav-container"><h2>Sélection</h2> <ul class="submenu-list selection"> </ul></div><div class="nav-container"><h2>Marques</h2> <ul class="submenu-list marques"> </ul></div><div class="nav-container"><h2>Région</h2> <ul class="submenu-list region"> </ul></div></div>'
+            '"><div class="nav-container"><h2>Sélection</h2> <ul class="submenu-list selection"></ul></div><div class="nav-container"><h2>Marques</h2> <ul class="submenu-list marques"> </ul></div><div class="nav-container"><h2>Région</h2> <ul class="submenu-list region"> </ul></div></div>'
         );
         // Boucles pour afficher un par un les éléments de selection
         if (item.selection) {
-          for (var i = 0; i < item.selection.length; i++) {
-            console.log(item.selection);
-            $(".selection").append("<li>" + item.selection[i] + "</li>");
+          console.log(item.selection);
+          for (select of item.selection) {
+            console.log(select);
+            $(".selection").append("<li>" + select + "</li>");
           }
         }
         // test pour afficher les marques du premier element JSON
